@@ -1,0 +1,215 @@
+.center {
+    margin: auto;
+    width: 48%;
+	border: 4px solid #1b73f7;
+	border-radius: 25px;
+	position:relative;
+    height:200px;
+	margin-bottom:50px;
+	float:left;
+	min-width:300px;
+	max-width:300px;
+	background-color: #2C3539;
+	
+}
+
+.center2 {
+    margin: auto;
+    width: 48%;
+	border: 4px solid #1b73f7;
+	border-radius: 25px;
+	position:relative;
+	height:200px;
+	float:left;
+	min-width:300px;
+	max-width:300px;
+	background-color: #2C3539;
+}
+
+.loginboxwrapper {
+    /* padding-top:50%; */
+    top:50%;
+    left:50%;
+    /* margin: auto; */
+    /* width: 50%; */
+    position:fixed;
+    transform: translateX(-50%) translateY(-50%);
+    /* height:700px; */
+    max-width:300px;
+	/* max-width:620px;
+	min-width:300px;
+	background-color: #000000; */
+}
+
+.LoginBoxesCaptured {
+   padding-top:0px;
+    
+}
+
+.LoginBoxes {
+    width: 100%;
+	position:relative;max-width:300px;
+
+}
+
+#backgroundVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+
+#TitelText {
+    position:absolute;
+    width:100%;
+    text-align: center;
+    font-family: "Impact", Impact, serif;
+    font-style: italic;
+    font-size: 42px;
+    top:15px;
+    color:white;
+}
+
+#LoginBoxesCaptured {
+	padding-top:30px;
+}
+
+#signDiv-quickPlay-button {
+	width:220px;
+	height:80px;
+	margin-left:13%;
+    background-color: #1b73f7; /* Blue */
+	border: 4px solid #2C3539;
+	border-radius:15px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+#signDiv-quickName {
+    width: 72%;
+    padding: 5px 20px;
+    margin: 0px 0;
+    box-sizing: border-box;
+	font-size: 20px;
+	text-align: center;
+}
+
+#signDiv-signIn {
+	width:120px;
+	height:50px;
+	margin-left:10%;
+    background-color: #1b73f7; /* Blue */
+	border: 4px solid #2C3539;
+	border-radius:15px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+#signDiv-signUp {
+	width:120px;
+	height:50px;
+	margin-left:0%;
+    background-color: #1b73f7; /* Blue */
+	border: 4px solid #2C3539;
+	border-radius:15px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+   
+/* LoginPage Above. Account page Below. */
+
+.accountpageContainer {
+	
+	width:800px;
+	margin:auto;
+	padding:10%;
+}
+
+.accountpagetoppagebanner {
+	position:middle;
+	background-color: #93a8d1;
+	height:150px;
+	width:600px;
+	border: 3px solid #73AD21;
+	padding:0px;
+	max-width:600px;
+	margin-bottom:50;
+	 margin:auto;
+}
+
+.moduledescriptionwrapper {
+  background-color: #444;
+  border-radius: 3px;
+  border: 3px solid #73AD21;
+  font-size: 100%;
+  max-width:600px;
+  max-height:400px;
+  height:150px;
+  width:600px;
+  padding:0px;
+  margin-bottom:10;
+  float:auto;
+  position:middle;
+   margin:auto;
+}
+
+.moduleSelectorwrapper {
+  display: grid;
+  grid-template-columns:auto auto auto auto;
+  grid-template-rows:auto auto auto auto auto auto auto;
+  grid-gap: 3%;
+  background-color: #2196F3;
+  width:100%;
+  width:auto;
+  border-radius: 3px;
+  border: 3px solid #73AD21;
+  margin-bottom:50;
+  min-width:600px;
+  max-width:600px;
+  float:auto;
+  padding:5%;
+  margin:auto;
+}
+
+/* border-color:#5528c9;*/
+
+.grid-container > modulebox {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 30px;
+  width:128px;
+  height:128;
+  margin:128;
+  float:auto;
+  position:middle;
+  width:600px;
+}
+
+.moduleboximg {
+width:128px;
+height:128px;
+  border: 5px solid red;
+  border-radius: 5px;
+
+}
+
+/* Account page Above */
